@@ -1,0 +1,27 @@
+{
+  "name": "muve_messaging",
+  "version": "1.0.0",
+  "description": "this is messaging broker with rabbit mq https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D(\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D).\\",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run src/tests/load-test.yml",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "node"
+  ],
+  "author": "amila viduranga welikala",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "amqplib": "^0.5.3",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "log4js": "^4.0.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.1.1"
+  }
+}

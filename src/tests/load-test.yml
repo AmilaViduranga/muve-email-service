@@ -1,0 +1,23 @@
+config:
+  target: "http://localhost:8002"
+  phases:
+    - duration: 300
+      arrivalRate: 50
+scenarios:
+  - flow:
+      - log: "New email send"
+      - post:
+          url: "/send-email"
+          json:
+            attachments:
+            - name: test.txt
+              displayName: test.txt
+            receivers:
+            - amilawelikala99@gmail.com
+            - amilavidurangawelikala@gmail.com
+            templateName: default
+            dyanamicContents:
+            - email: amilawelikala99@gmail.com
+              total: "$ 100"
+            - email: amilavidurangawelikala@gmail.com
+              total: "$ 200"

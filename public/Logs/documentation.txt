@@ -1,0 +1,24 @@
+{
+	"attachments": [
+		{
+			"name": "test.txt",
+			"displayName": "test.txt"
+		}
+	],
+	"receivers": [
+		"amilawelikala99@gmail.com",
+		"amilavidurangawelikala@gmail.com"
+	],
+	"templateName": "default",
+	"dyanamicContents": [
+		{
+			"email": "amilawelikala99@gmail.com",
+			"total": "$ 100"
+		},
+		{
+			"email": "amilavidurangawelikala@gmail.com",
+			"total": "$ 200"
+		}
+	]
+
+}
